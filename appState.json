@@ -29,7 +29,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "apigusEast1DemoAPIenviarSmspost",
+            "config": {}
+          }
+        ]
       }
     },
     "rootNode": "51d1113a-2461-451e-9d78-0dcdc9edbf51",
@@ -37,7 +42,27 @@
       "7742e3bb-86b2-498a-83d1-7ee4f3377899"
     ],
     "currentFileId": "7742e3bb-86b2-498a-83d1-7ee4f3377899",
-    "resources": {},
+    "resources": {
+      "apigusEast1DemoAPIenviarSmspost": {
+        "name": "apigusEast1DemoAPIenviarSmspost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "DemoAPI",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "enviar-sms",
+          "resourcePath": "/enviar-sms",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Prod",
+          "mode": 0
+        }
+      }
+    },
     "customTemplate": {
       "dialect": null,
       "definitions": null
@@ -63,7 +88,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1580073787631
+    "lastSave": 1580073926963
   },
   "VCS_STATE": {
     "provider": "GitHub",
