@@ -1,0 +1,75 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "51d1113a-2461-451e-9d78-0dcdc9edbf51": {
+        "id": "51d1113a-2461-451e-9d78-0dcdc9edbf51",
+        "parent": null,
+        "name": "DemoSMS",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "7742e3bb-86b2-498a-83d1-7ee4f3377899"
+        ],
+        "isRemovable": false,
+        "filePath": "DemoSMS"
+      },
+      "7742e3bb-86b2-498a-83d1-7ee4f3377899": {
+        "id": "7742e3bb-86b2-498a-83d1-7ee4f3377899",
+        "parent": "51d1113a-2461-451e-9d78-0dcdc9edbf51",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "DemoSMS/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "51d1113a-2461-451e-9d78-0dcdc9edbf51",
+    "openFiles": [
+      "7742e3bb-86b2-498a-83d1-7ee4f3377899"
+    ],
+    "currentFileId": "7742e3bb-86b2-498a-83d1-7ee4f3377899",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "DemoSMS",
+    "projectDescription": "Demo SMS",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1580073787631
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "DemoSMS",
+      "url": "https://github.com/leoromerbric/DemoSMS"
+    }
+  }
+}
